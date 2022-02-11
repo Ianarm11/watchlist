@@ -1,6 +1,7 @@
 <?php
 /*****
 Initalization of first 4 stocks and puts them in a global array.
+Also holds a collection of functions for the API.
 *****/
 require("stock_class.php");
 $stocks = array();

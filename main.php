@@ -23,6 +23,9 @@ background-color: #dddddd;
 </style>
 
 <script>
+/*
+Here is the random changin data logic. Every 5 seconds an AJAX call is made to the server.
+*/
 setInterval(updateTable, 5000);
 function updateTable() {
   $.ajax({
@@ -58,7 +61,10 @@ function updateTable() {
      }
    });
 }
-
+/*
+Here is the functionality for the user added rows.
+When a new row is added, a AJAX call is made to the server to generate random data for the row.
+*/
 $(document).ready(function(){
       $(".add-row").click(function(){
           var newSymbol = $("#newSymbol").val();

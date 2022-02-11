@@ -1,4 +1,8 @@
 <?php
+/*****
+This handles all the POST request from the client, using the functions in main.php.
+*****/
+
 require("main.php");
 
 $result = array();

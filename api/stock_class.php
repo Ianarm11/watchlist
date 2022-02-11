@@ -3,7 +3,8 @@
 /*****
 A class representation of an individual stock.
 On creation of an object, all values are initialized.
-getNewData() is called to represent the changing random data.
+getNewData() is called to represent the changing random data, which in hindsight,
+this function shouldn't be coupled with this class.
 *****/
 
 Class Stock {
